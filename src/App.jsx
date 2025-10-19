@@ -16,7 +16,7 @@ function App() {
   const value = useMemo(()=>({ token, setToken }), [token])
 
   // Idle timeout logic
-  const idleTimeout = 1 * 60 * 1000; // 5 minutes
+  const idleTimeout = 2 * 60 * 1000; // 5 minutes
   const timerRef = useRef(null)
 
   useEffect(() => {
