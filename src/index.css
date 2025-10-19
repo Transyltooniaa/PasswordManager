@@ -1,0 +1,2 @@
+@import "tailwindcss";
+/* Use Tailwind utilities directly in JSX; no custom @apply needed for v4 */
