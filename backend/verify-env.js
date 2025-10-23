@@ -3,11 +3,11 @@
 require('dotenv').config()
 const crypto = require('crypto')
 
-console.log('🔍 Environment Configuration Check\n')
+console.log('Environment Configuration Check\n')
 console.log('=' .repeat(70))
 
 // Check MongoDB
-console.log('\n📊 Database Configuration:')
+console.log('\nDatabase Configuration:')
 console.log('   MONGO_URI:', process.env.MONGO_URI || '❌ NOT SET')
 console.log('   DB_NAME:', process.env.DB_NAME || '❌ NOT SET')
 
