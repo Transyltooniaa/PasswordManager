@@ -6,7 +6,8 @@
     "start": "node server.js",
     "dev": "NODE_ENV=development nodemon server.js",
     "migrate:encrypt": "node scripts/migrate-encrypt-and-index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "verify:env": "node verify-env.js",
+    "test": "node test-encryption.js"
   },
   "keywords": [],
   "author": "",
