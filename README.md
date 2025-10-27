@@ -1,7 +1,5 @@
 # 🔐 PassOP — Your Secure Password Manager
 
-<div align="center">
-
 **A modern, secure, and self-hosted password manager built with React, Node.js, and MongoDB**
 
 [![Security](https://img.shields.io/badge/Security-AES--256--GCM-green.svg)](./SECURITY.md)
