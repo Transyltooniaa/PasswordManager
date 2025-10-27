@@ -1,10 +1,9 @@
-# Frontend Dockerfile using nginx
 FROM node:20-alpine AS build
 WORKDIR /app
 COPY package.json package-lock.json* pnpm-lock.yaml* yarn.lock* ./
 RUN npm ci || npm install
 COPY . .
-# Build with optional API base passed at build time
+
 ARG VITE_API_BASE
 ENV VITE_API_BASE=${VITE_API_BASE}
 RUN npm run build
